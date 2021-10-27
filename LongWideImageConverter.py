@@ -3,7 +3,7 @@ from PIL import Image
 import os
 
 # Variables Declaration
-images_files = []  # Listener containing the files in a folder
+images_files = []  # List containing the files in a folder
 manga_mode = False  # True if manga mode is activated by the user
 path = input("Enter a path here: ")  # The path of the directory containing the images
 des_dir = input("Please enter where the file will be saved: ")  # The Path where the images have to be saved
