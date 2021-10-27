@@ -39,7 +39,7 @@ for img in images:
 # Creating the new image (in cache)
 the_big_one = Image.new('RGB', (total_width, max_height))
 
-# This is the most important, paste into the newly created image the other one, repeat this for the whole list
+# This is the most important, paste into the newly created image each image in the list 'images'
 current_width = 0
 for img in images:
     the_big_one.paste(img, (current_width, 0))
